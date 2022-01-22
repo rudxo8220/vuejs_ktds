@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var email ="hong@daum.net";
+        var my= "address";
+        var user = {
+            name:"홍길동",
+            "age":20,
+            // email:email,
+            email,   // email:email동일,
+            [my]:"서울",
+            getName:function(){
+                return this.name;
+            },
+            getAge(){
+                return this.age;
+            }
+        };
+        console.log(user);
+        console.log(user.getName());
+        console.log(user.getAge());
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
