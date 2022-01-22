@@ -21,10 +21,14 @@
         var [x,y,z,[k,k2,k3]]    = [1,2,3,[5,6,7]];
         console.log(x,y,z,k,k2,k3);
      
-
-
-
-
+        ////////////////////////////////////
+        // 객체분해할당
+        var {n,n2} ={n:100,n2:300};
+        console.log(n,n2);
+        var {n,n4} ={n:100,n2:300};
+        console.log(n,n4);
+        var {n,n4=9999} ={n:100,n2:300};
+        console.log(n,n4);
 
     </script>
 </head>
