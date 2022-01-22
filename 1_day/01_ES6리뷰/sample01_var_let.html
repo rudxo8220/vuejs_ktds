@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //변수 사용
+        //1. var 변수
+        // 중복허용
+        // 함수 scope
+        // 호이스팅 적용
+        var n = 10;
+        var n = "홍길동";
+        console.log(n);
+        
+        if(true){
+            var n2 = 100;
+        }
+        console.log(n2);
+        
+        
+        console.log(n3);
+        var n3 = 2000;
+        console.log(n3);
+
+        //2. let 변수:ES6
+        //중복불가
+        //블럭 scope
+        //호이스팅 불가
+        let m = 10;
+        // let m = "홍길동";
+        console.log(n);
+
+        if(true){
+            let m2 = 100;
+        }
+        // console.log(m2);
+
+        console.log(m3);
+        let m3 = 2000;
+        console.log(m3);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
