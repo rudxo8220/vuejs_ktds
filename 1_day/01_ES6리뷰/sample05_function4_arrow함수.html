@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // arrow 함수 ==> 함수 표현식(익명함)를 좀더 간단하게 표현한 방식
+
+        //1. 리턴값 없고 파라미터 없는 형식
+        var fun = function(){
+            console.log("fun");
+        };
+        fun();
+
+        var fun = ()=>{ console.log("arrow fun");};
+        var fun = ()=>console.log("arrow fun");
+        fun();
+
+ //2. 리턴값 없고 파라미터 있는 형식
+        var fun2 = function(n,n2){
+                    console.log("fun2",n,n2);
+                };
+        fun2(10,20);
+        
+        var fun2 = (n,n2) => console.log("arrow fun2",n,n2);
+        fun2(100,200);
+
+        var fun3 = function(n){
+                    console.log("fun3",n);
+                };
+        fun3(100);
+
+        var fun3 = (n)=> console.log("arrow fun3",n);
+        var fun3 = n=> console.log("arrow fun3",n);
+        fun3(1000);
+
+
+    </script>
+</head>
+
+
+
+<body>
+    
+</body>
+</html>

@@ -26,6 +26,13 @@
          function fun3(){
              return fun;
          }
+         var x = fun3();
+         x();
+
+         var fun3 = 100;
+         fun3();  // 에러발생, 더이상 함수가 아니다.
+
+
 
 
 
